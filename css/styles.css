@@ -1,0 +1,100 @@
+/* цвет основного текста #757575 */
+/* цвет текста вторичнный е-майл и телефона в хедере #757575*/
+/* Эффективные решения для вашего бизнеса цвет текста #FFFFFF */
+
+
+/* цвет текста чем мы занимаємся #212121 */
+/* цвет текста Наша команда #212121 */
+
+/* цвет текста футер адресс #FFFFFF */
+/* цвет текста футер е-мейл и телефон color: rgba(255, 255, 255, 0.6) */
+/* цвет текста ховер #2196F3 */
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+}
+
+body {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: Roboto;   
+}
+/* Класс на цвет логотипа*/
+.logo {
+    color:var(--accent-color);
+}
+
+/* Класс на вторую часть логотипа */
+.studio {
+    color:var(--title-text-color);
+}
+/* Класс убирает точки в начале списка*/
+.list {
+    list-style: none;
+}
+/* Убирает подчеркивание у ссылок*/
+.link {
+    text-decoration: none;
+}
+/* Site nav*/
+.site-nav .link:hover,
+.site-nav .link:focus  {
+    color: var(--accent-color);
+}
+/* hero*/ 
+.hero-title {
+    color:#FFFFFF;
+}
+.hero {
+    background-color:;
+}
+/* section */
+.title {
+     color:var(--title-text-color);
+}
+/* Класс скрывает семантический заголовок*/
+.title-never {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/*Button*/
+.button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.button.primary {
+    color:#FFFFFF;
+    background-color: var(--accent-color);
+}
+/* цвета фона
+.header {
+    background-color: #FFFFFF;
+}
+.benefits {
+    background-color: #E5E5E5;
+}
+
+.work {
+    background-color: #E5E5E5;
+}
+
+.team {
+     background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+*/
