@@ -12,12 +12,14 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --second-white-color: #f5f4fa;
 }
 
 body {
   color: var(--primary-text-color);
   font-family: Roboto, helvetica, arial, sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -37,7 +39,7 @@ body {
 }
 /* Класс вторую часть логотипа в footer */
 .studio-sup {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* Класс убирает точки в начале списка*/
@@ -72,7 +74,7 @@ body {
 
 /* hero*/
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,6 +85,13 @@ body {
 
 /* section */
 .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+  /*text-transform: uppercase;*/
+}
+.title-benefits {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: inherit;
@@ -145,7 +154,7 @@ body {
 /*Button*/
 .button {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--second-white-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -157,10 +166,10 @@ body {
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .button.primary {
-  color: #ffffff;
+  color: var(--white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -179,6 +188,7 @@ body {
 /*Задает цвет выделенной кнопки фильтра*/
 .list .button.current {
   background-color: #2196f3;
+  color: var(--white-color);
 }
 
 /* Стиль написание шрифта и цвет контактов*/
@@ -209,7 +219,7 @@ body {
 
 /* Цвет текста места расположение студии*/
 .location.link {
-  color: #ffffff;
+  color: var(--white-color);
   /*font-weight: 400;
   font-size: 14px;
   line-height: 1.71;*/
@@ -220,7 +230,7 @@ body {
   background-color: #2f303a;
 }
 .container-team {
-  background-color: #f5f4fa;
+  background-color: var(--second-white-color);
 }
 /*Цвет footer*/
 .footer {
